@@ -72,7 +72,7 @@ cacheSolve <- function(x, ...) {
       temp <- x$get()
       # the matrix is returned to the temp variable, as the get() function returns the matrix
       
-      inv <- solve(temp, logarithm = FALSE,...)
+      inv <- solve(temp)
       # The inv of the matrix is computed here
       
       x$setinverse(inv)
