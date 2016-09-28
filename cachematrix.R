@@ -1,12 +1,10 @@
-## Put comments here that give an overall description of what your
-## functions do
-
 ## This function that I've written is modelled after the makeVector and Cachemean functions
 ## that have been given as examples. The main value addition in my opinion is the code
 ## documentation, which I hope describes how the code runs, how the two different functions
 ## interact with each other, and how lexical scoping comes into play here
 
-
+# A list vector is created by this function, and one of the objects in the list is used to 
+# cache the inverse of the matrix, which is called by the cachesolve function
 # Running this function in this way - a matrix is defined in a variable, and the matrix
 # would be invertible
 # The matrix would be passed to the function makeCacheMatrix, which would then create the
@@ -54,11 +52,6 @@ makeCacheMatrix <- function(x) {
       
       
 }
-
-
-
-
-
 
 
 
